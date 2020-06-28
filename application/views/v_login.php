@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SJAH - Login</title>
+  <title>SJAH - LOGIN</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?= base_url('assets/'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,56 +21,56 @@
   <!-- My Fonts -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Viga&display=swap" rel="stylesheet">
-      <script src="<?= base_url('assets/'); ?>js/jquery-3.3.1.min.js"></script>
 
 
 </head>
 
-<body style="background-image: url(<?php echo base_url('assets/image/bg.jpg')?>); background-size: 100% 100%">
+<body style="background-image: url(<?php echo base_url('assets/image/hotel1.jpg')?>); background-size: 100% 100%">
   
-
+  
 
   <div class="container" style=" margin-top: 73px; ">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
-      <div class="col-xl-10 col-lg-12 col-md-9">
+      <div class="col-xl-5 col-lg-12 col-md-9">
 
-        <div class="card my-5" style="box-shadow: 3px 3px 15px ; background-color: blue;">
+        
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
               <div class="col-lg-6 d-none d-lg-block ">
-                <h4 style="margin-top: 25px; margin-left: 180px; font-family: Viga; color: white;">FORM LOGIN </h4>
-                <p style="margin-left: 130px;color: white; font-family: Viga;"><em>"Make sure your account is secure!"</em></p>
-                <img src="assets/image/hotel.png" width="420px"; height="260px"; style="margin-top: 5px; margin-left: 30px;"  >
+                <!-- <h4 style="margin-top: 25px; margin-left: 180px; font-family: Viga; color: white;">FORM LOGIN </h4> -->
+                
               </div>
     
-              <div class="col-lg-6" >
+              <div class="col-lg" >
                 <div class="p-5" >
                   <div class="text-center">
                     <img src="assets/image/BPS.png" style="margin-left: 20px;" width="70px" height="70px" >
-                    <h1 class="h5 mb-4" style="font-family: Viga; color: white;">Badan Pusat Statistik <br> Kota Bandar Lampung</h1>
+                    <h1 class="h4 " style="font-family: Viga; color: white;">FORM LOGIN</h1>
+                    <p style="color: white; margin-bottom: 20px; font-family: Viga;"><em>"Masukan username dan password anda!"</em></p>
                     
                   </div>
 
                   <?= $this->session->flashdata('message'); ?>
-                  
+ 
                   <form class="user" method="post" action="<?=base_url(); ?>">
                     <div class="form-group">
-                      <input style="font-family: Viga;" type="text" class="form-control form-control-user" id="username" name="username" autocomplete="off" placeholder="Nama pengguna" value="<?= set_value('username')?>">
+                      <input style="font-family: Viga; margin-right : 300px;" type="text" class="form-control form-control-user" id="username" name="username" autocomplete="off" placeholder="Username" value="<?= set_value('username')?>">
                       <?=form_error('username','<small class="text-danger pl-3">','</small>');?>
                     </div>
                     <div class="form-group">
-                      <input style="font-family: Viga;" type="password" class="form-control form-control-user" id="password" name="password" autocomplete="off" placeholder="Kata sandi"><br>
-                      <input type="checkbox" class="form-checkbox"> Show Password>
+                      <input style="font-family: Viga;" type="password" class="form-control form-control-user" id="password" name="password" autocomplete="off" placeholder="Password">
                       <?=form_error('password','<small class="text-danger pl-3">','</small>');?> 
                       
-          
+                    
+                    
+                    
                     </div>
-
-
+                    <br>
+                    <br>
 
                     <button style="margin-bottom: 20px; font-family: Viga;" type="submit" class="btn btn-primary btn-user btn-block">
                       Masuk
@@ -106,17 +106,6 @@
   <!-- Custom scripts for all pages-->
   <script src="<?= base_url('assets/'); ?>js/sb-admin-2.min.js"></script>
 
-<script type="text/javascript">
-  $(document).ready(function(){   
-    $('.form-checkbox').click(function(){
-      if($(this).is(':checked')){
-        $('.form-control form-control-user').attr('type','text');
-      }else{
-        $('.form-control form-control-user').attr('type','password');
-      }
-    });
-  });
-</script>
 
 </body>
 

@@ -25,7 +25,7 @@
 
 </head>
 
-<body style="background-image: url(<?php echo base_url('assets/image/bg.jpg')?>); background-size: 100% 100%">
+<body style="background-image: url(<?php echo base_url('assets/image/hotel1.jpg')?>); background-size: 100% 100%">
   
 
 
@@ -36,7 +36,7 @@
 
       <div class="col-xl-5 col-lg-12 col-md-9">
 
-        <div class="card my-5" style="box-shadow: 3px 3px 15px ; background-color: blue;">
+        
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
@@ -68,7 +68,7 @@
           
                     </div>
 
-
+                  <br>
                     <button style="margin-bottom: 20px; margin-top: 20px; font-family: Viga;" type="submit" class="btn btn-primary btn-user btn-block">
                       Atur ulang password
                     </button>
