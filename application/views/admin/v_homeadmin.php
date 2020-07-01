@@ -32,7 +32,7 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('c_homeadmin')?>">
-        <img style="height: 50px;"class="img" src="<?= base_url('assets/image/lolo.png')?>">
+        <img style="height: 50px;"class="img" src="<?= base_url('assets/image/BPS.png')?>">
       </a>
 
       <!-- Divider -->

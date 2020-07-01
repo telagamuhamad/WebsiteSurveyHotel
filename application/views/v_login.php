@@ -64,10 +64,7 @@
                     <div class="form-group">
                       <input style="font-family: Viga;" type="password" class="form-control form-control-user" id="password" name="password" autocomplete="off" placeholder="Password">
                       <?=form_error('password','<small class="text-danger pl-3">','</small>');?> 
-                      
-                    
-                    
-                    
+                      <span class="fas fa-lock" onclick="show()" style="color: white;"> Show Password</span>
                     </div>
                     <br>
                     <br>
@@ -105,6 +102,20 @@
 
   <!-- Custom scripts for all pages-->
   <script src="<?= base_url('assets/'); ?>js/sb-admin-2.min.js"></script>
+  <script>
+    function show(){
+      var pswrd = document.getElementById('password');
+      var icon = document.querySelector('.fas');
+      if (pswrd.type === "password") {
+        pswrd.type = "text";
+        pswrd.style.marginTop = "20px";
+        icon.style.color = "#7f2092";
+      }else{
+        pswrd.type = "password";
+        icon.style.color = "grey";
+      }
+    }
+  </script>
 
 
 </body>
