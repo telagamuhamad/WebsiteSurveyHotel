@@ -70,6 +70,7 @@
                 </table>
 
                  <?= $this->pagination->create_links(); ?> 
+                 <a href="<?php echo base_url('c_export/export'); ?>" class="btn btn-primary mb-3">Unduh Data</a>
               </div>
             </div>
           </div>

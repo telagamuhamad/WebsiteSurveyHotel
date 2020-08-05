@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['index'] = 'c_login/index';
+$route['export'] = 'c_export/export';
 
