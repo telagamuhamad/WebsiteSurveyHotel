@@ -16,7 +16,7 @@
         
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
-                  <thead class="text-center"style="background-color: #4169E1;">
+                  <thead class="text-center"style="background-color:#3F729B;">
                     <tr style="color: white; font-family: Viga;">
                     <th >No</th>    
                     <th >Jumlah Hari</th>  

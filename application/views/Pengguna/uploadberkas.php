@@ -83,8 +83,8 @@
 			</div>
 		  </div>
 		  
-		  <div class="form-group row justify-content-end" style="margin-top: 30px; font-family: Viga;">
-		  	<div class="col-sm-9">
+		  <div class="form-group row justify-content-end" style="margin-top: 10px; font-family: Viga;">
+		  	<div class="col-sm-3">
 		  		<button type="submit" class="btn btn-primary">Upload</button>
 		  	</div>
 		  </div>

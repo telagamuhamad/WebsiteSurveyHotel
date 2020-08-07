@@ -28,7 +28,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: blue;">
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#3F729B ;">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('c_homeadmin')?>">
@@ -41,7 +41,7 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('c_homeadmin');?>">
-          <i style="color: white;" class="fas fa-fw fa-tachometer-alt"></i>
+          <i style="color: black;" class="fas fa-fw fa-tachometer-alt"></i>
           <span style="font-family: Viga;">Dashboard</span></a>
       </li>
 
@@ -51,7 +51,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i style="color: white;" class="fas fa-desktop"></i>
+          <i style="color: black;" class="fas fa-desktop"></i>
           <span style="font-family: Viga;">Monitoring Pengguna</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -68,7 +68,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseberkas" aria-expanded="true" aria-controls="collapseberkas">
-          <i style="color: white;" class="fas fa-desktop"></i>
+          <i style="color: black;" class="fas fa-desktop"></i>
           <span style="font-family: Viga;">Monitoring Berkas</span>
         </a>
         <div id="collapseberkas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -97,7 +97,7 @@
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow" style="background-color: blue;">
+        <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow" style="background-color:#3F729B;">
 
            <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">

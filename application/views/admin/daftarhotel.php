@@ -12,7 +12,7 @@
                  <?= $this->session->flashdata('message'); ?>
               </div>
               <div class="row">
-           <a href="<?= base_url('c_admin_tambahhotel');?>" class="btn btn-primary mb-3 " style="margin-right: 45%; margin-left: 10px; font-family: Viga;">Tambah Data</a>
+           <a href="<?= base_url('c_admin_tambahhotel');?>" class="btn btn-outline-primary mb-3 "style="margin-right: 45%; margin-left: 10px; font-family: Viga;">Tambah Data</a>
 
              <div class="col-md-5 " style=" margin-top: 2px;">
             <form action="<?= base_url('c_admin_daftarhotel') ?>" method="post">
@@ -27,7 +27,7 @@
         
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" >
-                  <thead class="text-center"style="background-color: #4169E1;">
+                  <thead class="text-center"style="background-color: #3F729B;">
                     <tr style="color: white; font-family: Viga">
                     <th >Nama Responden</th>
                     <th >Nama Hotel</th>
@@ -35,6 +35,8 @@
                     <th >Kode</th>
                     <th >Action</th>
                   </tr>
+                  <div class="col-md-5 " style=" margin-top: 2px;">
+                  <a href="<?php echo base_url('c_export/export'); ?>" class="btn btn-outline-secondary mb-3" style="margin-right: 45% ; font-family: Viga;" >Unduh Data</a> 
                   </thead>
                   <tbody>
                    <?php if (empty($data_hotel)) : ?>
@@ -60,7 +62,6 @@
                      <td>
                       <?= $data_hotel->kode ?>
                     </td>
-                    
                     <td width="130">
                       <a href="<?=  base_url('c_admin_daftarhotel/delete/') . $data_hotel->user ?>" class="btn btn-small text-danger" onclick="return confirm('Apakah anda yakin ingin menghapus data ini?');"><i class="fas fa-trash"></i> Hapus</a>
                     </td>
@@ -70,7 +71,7 @@
                 </table>
 
                  <?= $this->pagination->create_links(); ?> 
-                 <a href="<?php echo base_url('c_export/export'); ?>" class="btn btn-primary mb-3">Unduh Data</a>
+                
               </div>
             </div>
           </div>
