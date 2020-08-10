@@ -1,4 +1,4 @@
-   <div class="title-page " style="color: black; font-family: viga; padding-bottom: 30px; padding-top: 1px;">
+   <div class="title-page text-center" style="color: black; font-family: viga; padding-bottom: 30px; padding-top: 1px;">
             <h2>Tambah Admin</h2>
         </div>
 
@@ -56,11 +56,11 @@
       </div>
 		  
 		  <div class="form-group row justify-content-end" style="margin-top: 30px;">
-		  	<div class="col-sm-10">
-		  		<button style="font-family: Viga;" type="submit" class="btn btn-primary">Simpan</button>
+		  	<div class="col-sm-3">
+			  <button type="submit" class="btn btn-primary"style="margin-right: 45%; margin-left: 10px; font-family: Viga;">Simpan</button>
 		  	</div>
 		  </div>
-
+		  
 
 		</form>
 		

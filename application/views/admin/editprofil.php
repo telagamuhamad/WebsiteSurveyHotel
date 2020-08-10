@@ -1,4 +1,4 @@
-   <div class="title-page" style="color: black; font-family: Viga; padding-bottom: 5px; ">
+<div class="title-page text-center" style="color: black; font-family: viga; padding-bottom: 30px; padding-top: 1px;">
             <h2>Edit Profil</h2>
         </div>
 
