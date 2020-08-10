@@ -71,8 +71,8 @@
 		  </div>
 		  
 		  <div class="form-group row justify-content-end" style="margin-top: 30px;">
-		  	<div class="col-sm-10">
-		  		<button style="font-family: Viga;" type="submit" class="btn btn-primary">Simpan</button>
+		  	<div class="col-sm-3">
+			  <button type="submit" class="btn btn-primary"style="margin-right: 45%; margin-left: 10px; font-family: Viga;">Simpan</button>
 		  	</div>
 		  </div>
 
