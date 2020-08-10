@@ -1,4 +1,4 @@
-   <div class="title-page" style="color: black; font-family: viga; padding-bottom: 23px; ">
+   <div class="title-page text-center" style="color: black; font-family: viga; padding-bottom: 23px; ">
             <h2>Upload Berkas</h2>
         </div>
 
