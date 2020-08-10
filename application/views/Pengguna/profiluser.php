@@ -1,4 +1,4 @@
- <div class="title-page" style="color: black; font-family: viga; padding-bottom: 35px; margin-left: 3%; ">
+ <div class="title-page text-center" style="color: black; font-family: viga; padding-bottom: 35px; margin-left: 3%; ">
             <h2>Profil Hotel</h2>
         </div>
 
