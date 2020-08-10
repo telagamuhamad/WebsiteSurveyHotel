@@ -80,14 +80,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> 
 		  </div>
 		  
 		  <div class="form-group row justify-content-end" style="margin-top: 10px; font-family: Viga;">
 		  	<div class="col-sm-3">
-		  		<button type="submit" class="btn btn-primary">Upload</button>
+		  		<button type="submit" class="btn btn-primary mb-3"style="margin-right: 45%; margin-left: 10px; font-family: Viga;"></a>Upload</button> 
 		  	</div>
-		  </div>
+		  </div> 
 
 
 		</form>

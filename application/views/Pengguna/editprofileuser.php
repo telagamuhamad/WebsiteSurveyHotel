@@ -65,8 +65,8 @@
 		  </div>
 		  
 		  <div class="form-group row justify-content-end" style="margin-top: 30px; font-family: Viga;">
-		  	<div class="col-sm-9">
-		  		<button type="submit" class="btn btn-primary">Simpan</button>
+		  	<div class="col-sm-3">
+		  		<button type="submit" class="btn btn-primary"style="margin-right: 45%; margin-left: 10px; font-family: Viga;">Simpan</button>
 		  	</div>
 		  </div>
 
