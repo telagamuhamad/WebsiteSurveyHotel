@@ -12,7 +12,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/1-Januari.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '1');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -20,7 +20,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/2-Februari.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '2');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -28,7 +28,7 @@
   <div class="card"style="margin-right: 5px">
     <img class="card-img-top" src="assets/image/3-Maret.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '3');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
   </div>
@@ -38,7 +38,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/4-April.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '4');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -46,7 +46,7 @@
   <div class="card" style="margin-left: 1.5px">
     <img class="card-img-top" src="assets/image/5-Mei.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '5');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -54,7 +54,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/6-Juni.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '6');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
   </div>
@@ -64,7 +64,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/7-Juli.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '7');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -72,7 +72,7 @@
   <div class="card" style="margin-left: 1.5px">
     <img class="card-img-top" src="assets/image/8-Agustus.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '8');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -80,7 +80,7 @@
   <div class="card" style="margin-left: 5px">
     <img class="card-img-top" src="assets/image/9-September.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '9');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
   </div>
@@ -90,7 +90,7 @@
   <div class="card">
     <img class="card-img-top" src="assets/image/10-Oktober.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '10');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -98,7 +98,7 @@
   <div class="card" style="margin-left: 5px">
     <img class="card-img-top" src="assets/image/11-November.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-primary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '11');?>" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
     </div>
@@ -106,7 +106,7 @@
   <div class="card" style="margin-left: 8px">
     <img class="card-img-top" src="assets/image/12-Desember.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-rimary">LIHAT</a>
+      <a href="<?= base_url('c_admin_daftarsurvei/bulan/' . '12');?>" class="btn btn-rimary">LIHAT</a>
     </div>
     <div class="card-footer">
   </div>

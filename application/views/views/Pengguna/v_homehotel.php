@@ -29,7 +29,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#3F729B;">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('c_homeuser')?>">
@@ -42,7 +42,7 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('c_homeuser');?>">
-          <i class="fas fa-fw fa-home" style="color: black;"></i>
+          <i class="fas fa-fw fa-home" style="color: white;"></i>
           <span style="font-family: Viga;">Beranda</span></a>
       </li>
 
@@ -52,7 +52,7 @@
       <!-- Nav Item - upload -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('c_user_upload');?>">
-          <i class="fas fa-fw fa-file-excel" style="color: black;"></i>
+          <i class="fas fa-fw fa-file-excel" style="color: white;"></i>
           <span style="font-family: Viga;" >Upload Berkas</span></a>
       </li>
 
@@ -62,7 +62,7 @@
       <!-- Nav Item - History -->
       <li class="nav-item">
         <a class="nav-link" href="<?= base_url('c_user_history');?>">
-          <i class="fas fa-fw fa-history" style="color: black;"></i>
+          <i class="fas fa-fw fa-history" style="color: white;"></i>
           <span style="font-family: Viga;">Riwayat Pengiriman</span></a>
       </li>
 

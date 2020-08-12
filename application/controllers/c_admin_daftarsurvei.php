@@ -3,13 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class c_admin_daftarsurvei extends CI_Controller {
 
-	public function __construct()
+    public function __construct()
     {
         parent::__construct();
         $this->load->model("m_daftarsurvei");
+        $this->load->model("m_bulan");
         $this->load->library('form_validation');
         $this->load->helper('download');
-
+         $this->load->library('pagination');
          if (!$this->session->userdata('username_admin')) 
         {
             redirect('c_login');
@@ -30,10 +31,7 @@ class c_admin_daftarsurvei extends CI_Controller {
     public function index(){
 
 
-    	$data['admin'] = $this->db->get_where('admin',['username'=>$this->session->userdata('username_admin')])->row_array();
-
-        //Pagination
-        $this->load->library('pagination');
+        $data['admin'] = $this->db->get_where('admin',['username'=>$this->session->userdata('username_admin')])->row_array();
 
         //fitur searching
 
@@ -65,23 +63,22 @@ class c_admin_daftarsurvei extends CI_Controller {
          $this->pagination->initialize($config);
 
 
-		if ($data['admin']) 
-		{
+        if ($data['admin']) 
+        {
             $data["start"] = $this->uri->segment(3);
             $data["data_survei"] = $this->m_daftarsurvei->getdata($config['per_page'], $data['start'], $data['cariberkas']);
             $data['konten'] = "admin/daftarsurvei";
             $this->load->view('admin/v_homeadmin', $data);
-        }	
+        }   
         
         else 
         {
             redirect('c_login');
-			
+            
         }
 
-		}
-         public function delete($id_berkas) 
-        { 
+    }
+    public function delete($id_berkas) { 
             if ($this->session->userdata('username_admin')=="admin1") 
             {
 
@@ -102,8 +99,25 @@ class c_admin_daftarsurvei extends CI_Controller {
                 $this->session->set_flashdata('message','<div class="alert alert-danger" role="alert"> Maaf,hanya admin utama yang dapat menghapus data! </div>');
             redirect('c_admin_daftarsurvei');
             }
-        }
+    }
+    public function bulan($bulan){
+        $data['admin'] = $this->db->get_where('admin',['username'=>$this->session->userdata('username_admin')])->row_array();
 
+        $data['databln'] =$this->m_bulan->getAll($bulan);
+        if ($data['admin']) 
+        {
+
+             $this->load->view('admin/v_bulan', $data);
+        }   
+        
+        else 
+        {
+            redirect('c_login');
+            
+        }
+     
+    }
+ 
 }
 
-	
+    
