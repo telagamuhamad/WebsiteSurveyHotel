@@ -20,6 +20,7 @@
                   <input style="font-family: Viga;" class="btn btn-primary" type="submit" name="submit">
                 </div>
               </div>
+            </form>
           </div>
         
               <div class="table-responsive">

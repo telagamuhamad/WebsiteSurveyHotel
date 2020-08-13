@@ -106,7 +106,7 @@
   <div class="card" style="margin-left: 8px">
     <img class="card-img-top" src="assets/image/12-Desember.jpg" alt="Card image cap">
     <div class="card-body">
-      <a href="#" class="btn btn-rimary">LIHAT</a>
+      <a href="#" class="btn btn-primary">LIHAT</a>
     </div>
     <div class="card-footer">
   </div>
