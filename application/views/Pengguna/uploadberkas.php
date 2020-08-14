@@ -1,4 +1,4 @@
-   <div class="title-page text-center" style="color: black; font-family: viga; padding-bottom: 23px; ">
+   <div class="title-page" style="color: black; font-family: viga; padding-bottom: 23px; ">
             <h2>Upload Berkas</h2>
         </div>
 
@@ -80,14 +80,14 @@
 						</div>
 					</div>
 				</div>
-			</div> 
+			</div>
 		  </div>
 		  
 		  <div class="form-group row justify-content-end" style="margin-top: 10px; font-family: Viga;">
 		  	<div class="col-sm-3">
-		  		<button type="submit" class="btn btn-primary mb-3"style="margin-right: 45%; margin-left: 10px; font-family: Viga;"></a>Upload</button> 
+		  		<button type="submit" class="btn btn-primary">Upload</button>
 		  	</div>
-		  </div> 
+		  </div>
 
 
 		</form>
