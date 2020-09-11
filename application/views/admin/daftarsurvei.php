@@ -8,9 +8,12 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<<<<<<< HEAD
   <div class="row" >
                  <?= $this->session->flashdata('message'); ?>
               </div>
+=======
+>>>>>>> dd84a3ea42e1ece44daa766fca6deddc9f5304b6
 
   <div class="card-deck">
     <div class="card">

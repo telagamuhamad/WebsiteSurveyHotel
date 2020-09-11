@@ -158,7 +158,11 @@
             <h7>Jl. Sutan Syahrir No. 30, Pahoman, Bandar Lampung, 35215.</h7>
             <h7>Telp. (0721)255980. Mailbox : bps1871@bps.go.id</h7>
             <br>
+<<<<<<< HEAD
             <h7>Copyright © 2020 </h7>
+=======
+            <h7>Copyright © 2020</h7>
+>>>>>>> dd84a3ea42e1ece44daa766fca6deddc9f5304b6
             <br>
             <h7>Built by © Mahasiswa Kerja Praktik <a href="http://if.itera.ac.id/">Prodi Teknik Informatika - <a href="https://www.itera.ac.id/">Institut Teknologi Sumatera</h7>
           </div>
